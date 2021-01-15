@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Local Data Storage</string>
+    <string name="from_sample_data">from Sample Data</string>
+    <string name="from_json_data">from JSON Data</string>
+    <string name="from_sqlite_data">from SQLite Data</string>
+    <string name="from_sqlite_room">from SQLite Room Data</string>
+
+    <!--    preferences-->
+    <string name="pref_cat_grid_layout">pref_cat_grid_layout</string>
+    <string name="swch_pref_grid_display">swch_pref_grid_display</string>
+    <string name="pref_cat_card_view">pref_cat_card_view</string>
+    <string name="swch_pref_card_view">swch_pref_card_view</string>
+
+    <!--    Menu-->
+    <string name="pref_cat_import_btn">pref_cat_import_btn</string>
+    <string name="settings">Settings</string>
+    <string name="display_all">Display all</string>
+    <string name="choose_a_category">Choose a category</string>
+
+    <!--    MainActivity-->
+    <string name="open_sample_data">Open Sample Data</string>
+    <string name="text_sample_data">Loads data from Sample Data located inside APP.</string>
+    <string name="open_json_data">Open JSON data</string>
+    <string name="text_json_data">If needed creates local Json file in \'/file\' directory of
+        APP location . Loads recycler view with all data form Json file.</string>
+    <string name="open_sqlite_data">Open SQLite data</string>
+    <string name="txt_sqlite_data">Creates SQLite data base by default and inserts data from
+        Sample Data. TSQLite will inflate the recycler view with new data.
+        Drawer list is enabled to filer list by category.</string>
+    <string name="open_sqlite_data_with_room">Open SQLite data with Room</string>
+    <string name="txt_sqlite_room">Same as SQLit data but with SQLite with Room.</string>
+
+
+    <string name="category">Category:</string>
+    <string name="photographer">Photographer:</string>
+    <string name="photo_name">Photo name:</string>
+    <string name="city">City</string>
+    <string name="pixar">Pixar</string>
+    <string name="skyline_city">Skyline city</string>
+
+<!--    Notifications-->
+    <string name="inserted_sqlite_room">Data inserted into SQLite Room database.</string>
+
+
+    <!--    Drawer-->
+    <string-array name="categories">
+        <item>Beach</item>
+        <item>City</item>
+        <item>Landscape</item>
+        <item>Nature</item>
+        <item>Sky</item>
+    </string-array>
+
+
+</resources>

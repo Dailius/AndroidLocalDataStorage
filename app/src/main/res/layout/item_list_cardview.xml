@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_margin="8dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?selectableItemBackground"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        app:cardBackgroundColor="#ffffff"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="3dp"
+        app:contentPadding="4dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp">
+
+            <ImageView
+                android:id="@+id/ivwPhoto"
+                android:layout_width="wrap_content"
+                android:layout_height="270dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginEnd="0dp"
+                android:background="@drawable/rounded_text_corner_background_c161605d"
+                android:contentDescription="City photo"
+                app:srcCompat="@drawable/pexels_pixabay_366283"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/txtPhotoName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/ivwPhoto"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="4dp"
+                android:background="@drawable/rounded_text_corner_background_white"
+                android:paddingHorizontal="5dp"
+                android:text="Photo name"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/txtPhotographer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/ivwPhoto"
+                android:layout_alignBottom="@+id/ivwPhoto"
+                android:layout_marginEnd="4dp"
+                android:layout_marginBottom="12dp"
+                android:background="@drawable/rounded_text_corner_background_white"
+                android:paddingHorizontal="5dp"
+                android:text="Photographer"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                tools:ignore="HardcodedText" />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</layout>
+

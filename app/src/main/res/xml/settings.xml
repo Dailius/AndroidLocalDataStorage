@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <PreferenceCategory
+        app:key="@string/pref_cat_grid_layout"
+        app:title="Layout">
+
+
+        <SwitchPreferenceCompat
+            app:key="@string/swch_pref_grid_display"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:defaultValue="false"
+            android:summary="Display photos in a multi-column grid"
+            app:title="Display in grid"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:key="@string/pref_cat_card_view"
+        app:title="View">
+
+        <SwitchPreferenceCompat
+            app:key="@string/swch_pref_card_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:defaultValue="false"
+            android:summary="Display photos in cards"
+            app:title="Card view"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
